@@ -122,8 +122,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  gap: 10px;
+
+  gap: 20px;
 }
 
 .language label {
@@ -155,6 +155,10 @@
   //* SHOW MENU BUTTON  
 
 .show-menu-button, .close-menu-button {
+  display: none;
+}
+
+.menu, .overlay {
   display: none;
 }
 
@@ -286,6 +290,7 @@
   //* OVERLAY
   
   .overlay {
+    display: block;
     position: fixed;
 
     width: 100%;
