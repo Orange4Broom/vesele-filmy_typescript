@@ -1,8 +1,13 @@
+import Navigation from "../../components/navigation/Navigation";
+
 function Watchlist() {
   return (
-    <div>
-      <h2>Watchlist</h2>
-    </div>
+    <>
+    <Navigation />
+      <div>
+        <h2>Watchlist</h2>
+      </div>
+    </>
   )
 }
 
