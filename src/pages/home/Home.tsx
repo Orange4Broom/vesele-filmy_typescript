@@ -1,8 +1,13 @@
+import Navigation from "../../components/navigation/Navigation";
+
 function Home() {
   return (
-    <div>
-      <h2>Home</h2>
-    </div>
+    <>
+      <Navigation />
+      <div>
+        <h2>Home</h2>
+      </div>
+    </>
   )
 }
 
