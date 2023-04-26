@@ -1,3 +1,5 @@
+//* SLIDER BODY
+
 .image-slider {
   display: flex;
   flex-direction: column;
@@ -30,6 +32,8 @@
   z-index: 1;
 }
 
+//* MAPPED IMAGES
+
 .slider-image {
   display: flex;
   justify-content: center;
@@ -61,6 +65,8 @@
   object-fit: cover;
 }
 
+//* PREV,NEXT BUTTON
+
 .prev-button,
 .next-button {
   position: absolute;
@@ -88,6 +94,8 @@
 .next-button:hover {
   background-color: #ccc;
 }
+
+//* DOTS
 
 .dots {
   position: absolute;
@@ -126,6 +134,8 @@
   display: none;
 }
 
+//* INFO ABOUT SLIDE/FILM
+
 .slider-image .film {
   display: flex;
   flex-direction: column;
@@ -161,6 +171,8 @@
   gap: 30px;
 }
 
+//* ADD TO WATCHLIST
+
 .add-to-watchlist {
   display: flex;
   flex-direction: row;
@@ -186,6 +198,8 @@
   box-shadow: 0 0 10px #189e85df;
 }
 
+//* FILM RATING
+
 .film-rating {
   display: flex;
   flex-direction: row;
@@ -196,7 +210,10 @@
   font-size: 16px;
 }
 
+//? MOBILE RESPONSIBILITY
 @media (max-width: 950px) {
+  
+  //* FILM DESCRIPTION
   .film-description {
     font-size: 14px;
   }
