@@ -2,6 +2,8 @@ import Navigation from "../../components/navigation/Navigation";
 import ImageSlider from "../../components/imageslider/ImageSlider";
 
 function Home() {
+  //TODO Add films IDs
+
   const images = [
     "/img/films/joker.svg",
     "/img/films/knight.svg",
@@ -39,7 +41,7 @@ function Home() {
           names={names}
           descriptions={descriptions}
           ratings={ratings}
-          autoplayInterval={3000}
+          autoplayInterval={5000}
         />
       </div>
     </>
