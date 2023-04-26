@@ -3,13 +3,17 @@ import "./imageslider.scss";
 
 interface Props {
   images: string[];
+  names: string[];
   descriptions: string[];
+  ratings: string[];
   autoplayInterval?: number;
 }
 
 const ImageSlider: React.FC<Props> = ({
   images,
   descriptions,
+  names,
+  ratings,
   autoplayInterval = 5000,
 }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -38,7 +42,15 @@ const ImageSlider: React.FC<Props> = ({
               index === currentImageIndex ? "active" : ""
             }`}
           >
-            <p className="description">{descriptions[index]}</p>
+            <div className="film">
+              <h1 className="film-name">{names[index]}</h1>
+              <p className="film-desription">{descriptions[index]}</p>
+              <div>
+                <button className="add-to-watchlist">Add to watchlist</button>
+                <p className="film-rating">{ratings[index]}</p>
+              </div>
+            </div>
+
             <img src={image} alt={`Image ${index}`} />
           </div>
         ))}
