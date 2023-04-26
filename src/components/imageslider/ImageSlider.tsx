@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./imageslider.scss";
+import Icon from "../Icon/Icons";
 
 interface Props {
   images: string[];
@@ -44,10 +45,10 @@ const ImageSlider: React.FC<Props> = ({
           >
             <div className="film">
               <h1 className="film-name">{names[index]}</h1>
-              <p className="film-desription">{descriptions[index]}</p>
-              <div>
-                <button className="add-to-watchlist">Add to watchlist</button>
-                <p className="film-rating">{ratings[index]}</p>
+              <p className="film-description">{descriptions[index]}</p>
+              <div className="film-bottom">
+                <button className="add-to-watchlist"><Icon name="bookmark" type="fas" color="" />Add to watchlist</button>
+                <p className="film-rating">{ratings[index]}<Icon name="star" type="fas" color="#28d9ba"/></p>
               </div>
             </div>
 
