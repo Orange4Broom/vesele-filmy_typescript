@@ -13,8 +13,8 @@ function Home() {
 
   const names = [
     "Joker",
-    "The dark knight",
-    "Willy's wonderland",
+    "The Dark Knight",
+    "Willy's Wonderland",
     "9"
   ]
 
