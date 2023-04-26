@@ -3,10 +3,10 @@ import ImageSlider from "../../components/imageslider/ImageSlider";
 
 function Home() {
   const images = [
-    "https://cdn.esawebb.org/archives/images/screen/carinanebula3.jpg",
-    "https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg",
-    "https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg",
-    "https://cdn.create.vista.com/api/media/small/63829885/stock-photo-tree-reflected-in-the-lake"
+    "/img/films/joker.svg",
+    "/img/films/knight.svg",
+    "/img/films/willy.svg",
+    "/img/films/9.svg",
   ];
 
   const descriptions = [
