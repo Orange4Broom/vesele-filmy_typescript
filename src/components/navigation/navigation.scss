@@ -7,14 +7,18 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  position: relative;
+  top: 0;
 
   width: 100%;
 
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
 
-  background: rgba(0, 0, 0, 0.3);
+
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5) inset;
+  background-color: rgba(0, 0, 0, 0.492);
+  z-index: 4;
 }
 
 .nav-wrapper {
@@ -28,6 +32,7 @@
   width: 100%;
 
   padding: 0 20px;
+
 }
 
   //* SEARCH FORM

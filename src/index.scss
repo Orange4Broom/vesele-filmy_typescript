@@ -2,7 +2,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 
   color: rgba(255, 255, 255, 0.87);
-  background-color: #1B1B1B;
+  background-color: #1b1b1be1;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -12,6 +12,8 @@
 }
 
 body {
+  height: 100vh;
+  width: 100%;
   margin: 0;
   padding: 0;
   box-sizing: border-box;

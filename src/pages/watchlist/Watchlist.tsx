@@ -1,4 +1,5 @@
 import Navigation from "../../components/navigation/Navigation";
+import "./watchlist.scss"
 
 function Watchlist() {
   return (

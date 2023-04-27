@@ -41,7 +41,7 @@ function Home() {
           names={names}
           descriptions={descriptions}
           ratings={ratings}
-          autoplayInterval={6000}
+          autoplayInterval={651354000}
         />
       </div>
     </>
