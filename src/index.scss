@@ -12,7 +12,12 @@
 }
 
 body {
-  height: 100vh;
+  /* For old WebKit browsers */
+  height: -webkit-fill-available;
+  height: -moz-available;          /* For old Firefox */
+  height: -o-fill-available;       /* For old Opera */
+  height: -ms-fill-available;      /* For old Internet Explorer/Edge */
+  
   width: 100%;
   margin: 0;
   padding: 0;
