@@ -35,12 +35,17 @@ function Home() {
     "3.5/5"
   ]
 
+  function handleChangeSearched() {
+    setSearched(!searched);
+  }
+
   return (
     <>
       <Navigation />
       {searched ? (
         <div className="Home">
           <h2>bruh</h2>
+          <button onClick={handleChangeSearched}>bruh</button>
         </div>
       ) : (
         <div>
