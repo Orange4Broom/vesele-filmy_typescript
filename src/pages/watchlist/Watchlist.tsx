@@ -1,8 +1,14 @@
+import Navigation from "../../components/navigation/Navigation";
+import "./watchlist.scss"
+
 function Watchlist() {
   return (
-    <div>
-      <h2>Watchlist</h2>
-    </div>
+    <>
+    <Navigation />
+      <div>
+        <h2>Watchlist</h2>
+      </div>
+    </>
   )
 }
 

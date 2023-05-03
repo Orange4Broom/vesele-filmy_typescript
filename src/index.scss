@@ -1,12 +1,25 @@
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Nunito:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');:root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #1b1b1be1;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+body {
+  /* For old WebKit browsers */
+  height: -webkit-fill-available;
+  height: -moz-available;          /* For old Firefox */
+  height: -o-fill-available;       /* For old Opera */
+  height: -ms-fill-available;      /* For old Internet Explorer/Edge */
+  
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
