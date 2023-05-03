@@ -4,7 +4,7 @@ import Icon from "../Icon/Icons";
 import "./navigation.scss"
 
 function Navigation() {
-  const [shown, setShown] = useState(false);
+  const [shown, setShown] = useState(true);
 
   const toggleMenu = () => {
     setShown(!shown);
