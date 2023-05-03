@@ -1,8 +1,11 @@
 import Navigation from "../../components/navigation/Navigation";
 import ImageSlider from "../../components/imageslider/ImageSlider";
+import { useState } from "react";
+import "./home.scss"
 
 function Home() {
-  //TODO Add films IDs
+
+  const [searched, setSearched] = useState(true);
 
   const images = [
     "/img/films/joker.svg",
@@ -35,15 +38,22 @@ function Home() {
   return (
     <>
       <Navigation />
-      <div>
-        <ImageSlider
-          images={images}
-          names={names}
-          descriptions={descriptions}
-          ratings={ratings}
-          autoplayInterval={6000}
-        />
-      </div>
+      {searched ? (
+        <div className="Home">
+          <h2>bruh</h2>
+        </div>
+      ) : (
+        <div>
+          <ImageSlider
+            images={images}
+            names={names}
+            descriptions={descriptions}
+            ratings={ratings}
+            autoplayInterval={6000}
+          />
+        </div>
+      )}
+      
     </>
   )
 }
